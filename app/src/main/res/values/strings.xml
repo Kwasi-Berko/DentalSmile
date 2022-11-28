@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DentalSmile</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_about">about</string>
+    <string name="title_home">Home</string>
+    <string name="main_content">
+<b> Welcome to Smile Dental Group</b>
+<i>the best in the business.</i>
+<p>By enhancing your oral health and smile, our experts provide the highest standard of dental treatment to help you live a better and happier life. Our staff is able to provide top-notch dental treatments every time since our contemporary dentistry techniques are in perfect alignment with the strictest guidelines. There are various reasons why people choose not to see the dentist, including fear, anxiety, and financial worries. Your oral and general health may suffer if you don't go to the dentist since you can be even more reluctant if you...</p>
+
+<b>Brushing good. Cavities bad.</b>
+<p>There is a lot more to learn about the health of your teeth. A wellness scan can tell you and your dentist almost everything you need to know about your bite, wear patterns, possible problem areas, the quality of your enamel, the state of any recent fillings and crowns, and much more if you have five minutes to spare.</p>
+
+<b>Floss Facts</b>
+<p>Interesting Teeth and Dentistry Facts That Will Surprise You, Oct 2, 2022. Flossing is a crucial component of good dental hygiene. Your dentist often stresses the need of flossing because when you don't, you lose out on more than 40% of the tooth surfaces. Even though flossing is necessary, many individuals find it unpleasant to perform. 73% of Americans would rather shop at the supermarket than floss their teeth.</p>
+
+
+    </string>
+</resources>
