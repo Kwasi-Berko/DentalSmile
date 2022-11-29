@@ -47,7 +47,8 @@
 
         <!--        hero end-->
 
-        <!--        image -->
+        <!--        image
+        -->
 
         <TextView
             android:id="@+id/textView4"
@@ -78,8 +79,9 @@
             app:layout_constraintTop_toBottomOf="@+id/textView4"
             app:srcCompat="@drawable/img_1" />
 
+<!--        CALL TO ACTION BUTTON FOR BOOKING AN APPOINTMENT -->
         <Button
-            android:id="@+id/button"
+            android:id="@+id/action_button"
             android:layout_width="370dp"
             android:layout_height="60dp"
             android:layout_marginStart="23dp"
@@ -90,6 +92,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
+<!--        SCROLL VIEW CONTAINS ALL OTHER INFORMATION ON THE HOME PAGE-->
         <ScrollView
             android:id="@+id/scrollView3"
             android:layout_width="413dp"

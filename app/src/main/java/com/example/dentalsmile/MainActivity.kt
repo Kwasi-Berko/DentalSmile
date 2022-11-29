@@ -1,5 +1,6 @@
 package com.example.dentalsmile
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
+//toggle to hide and show navigation
         toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
@@ -41,6 +42,15 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+    //call to action button
+    val callToAction = findViewById<>(R.id.action_button)
+    callToAction.setOnClickListener {
+        val i = Intent(this,callToAction::class.java)
+
+    }
+
+
  //this will help with a responsive clicks on our toggle buttons
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (toggle.onOptionsItemSelected(item)){

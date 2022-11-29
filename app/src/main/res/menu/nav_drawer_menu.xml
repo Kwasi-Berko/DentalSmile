@@ -3,6 +3,7 @@
 
     <group android:checkableBehavior="single">
 
+<!--        navigation with iDs to connect to the other  Activity layers -->
         <item
         android:id="@+id/miItem1"
         android:title="Main"/>
